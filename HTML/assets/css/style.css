@@ -2882,14 +2882,18 @@ ul.list-icons li i {
 }
 
 .header .navbar .navbar-nav>li#contact.active a,
-.header .navbar .navbar-nav>li#contact:hover a {
+.header .navbar .navbar-nav>li#contact:hover a,
+.header .navbar .navbar-nav>li#home.active a,
+.header .navbar .navbar-nav>li#home:hover a {
 	color: var(--global--color-primary);
 }
 
 @media screen and (min-width: 992px) {
 
 	.header .navbar .navbar-nav>li#contact.active a::before,
-	.header .navbar .navbar-nav>li#contact:hover a::before {
+	.header .navbar .navbar-nav>li#contact:hover a::before,
+	.header .navbar .navbar-nav>li#home.active a::before,
+	.header .navbar .navbar-nav>li#home:hover a::before {
 		-webkit-transform       : scale3d(1, 1, 1);
 		transform               : scale3d(1, 1, 1);
 		-webkit-transform-origin: 0 50%;
